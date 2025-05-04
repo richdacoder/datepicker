@@ -3,7 +3,7 @@ declare module 'js-datepicker' {
     /**
      * Callback function after a date has been selected. The 2nd argument is the selected date when a date is being selected and `undefined` when a date is being unselected. You unselect a date by clicking it again.
      */
-    onSelect?(instance: DatepickerInstance, date?: Date): void
+    onSelect?(instance: DatepickerInstance, date?: Date): void 
 
     /**
      * Callback function when the calendar is shown.
